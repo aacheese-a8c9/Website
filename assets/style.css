@@ -2,6 +2,16 @@ body {
   background-color: #a46051;
   margin: 0;
   font-family: 'DM Sans', sans-serif;
+  background-color: #a46051;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-over-border {
@@ -9,7 +19,7 @@ body {
   font-size: 22px;
   font-weight: bold;
   margin: 2px 0;
-  color: #e7dfc5;
+  color: #F9F6EE;
 }
 
 .container {
@@ -21,7 +31,7 @@ body {
 }
 
 .navbar {
-  background-color: #e7dfc5;
+  background-color: #F9F6EE;
   height: 35px;
   display: flex;
   justify-content: center;
@@ -29,6 +39,8 @@ body {
   padding: 0 20px;
   margin: 10px;
   border-radius: 12px;
+  top: 0;
+  position: fixed;
 }
 
 .navbar ul {
