@@ -1,18 +1,43 @@
 'use strict';
 
-const images = [
+const bgImages = [
   "./assets/images/arch bg.png",
   "./assets/images/forgery.png",
-  "./assets/images/red sandstone valley.png"
+  "./assets/images/black museum.png"
 ];
 
-let currentIndex = 0;
+let bgIndex = 0;
 
 function changeBackground() {
-  document.body.style.backgroundImage = `url('${images[currentIndex]}')`;
-  currentIndex = (currentIndex + 1) % images.length;
+  document.body.style.backgroundImage = `url('${bgImages[bgIndex]}')`;
+  bgIndex = (bgIndex + 1) % bgImages.length;
 }
 
-setInterval(changeBackground, 1000);
+setInterval(changeBackground, 5000);
 
 window.addEventListener("load", changeBackground);
+
+const cycleImages = [
+    "./assets/images/people digging.png",
+    "./assets/images/red sandstone valley.png",
+    "./assets/images/ancient pot.png",
+    "./assets/images/pickaxe.png",
+    "./assets/images/fossil.png",
+  ];
+  
+  let cycleIndex = 0;
+  
+  function changeImage(index) {
+    cycleIndex = (index + cycleImages.length) % cycleImages.length;
+    document.getElementById("main-image").src = cycleImages[cycleIndex];
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("left-arrow").addEventListener("click", () => {
+      changeImage(cycleIndex - 1);
+    });
+  
+    document.getElementById("right-arrow").addEventListener("click", () => {
+      changeImage(cycleIndex + 1);
+    });
+  });

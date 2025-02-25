@@ -1,0 +1,37 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15vh;
+}
+
+.center img {
+    max-width: 100%;
+    height: auto;
+}
+
+.para {
+    margin-top: 120px;
+}
+
+.quote {
+    font-size: 1.2em; 
+    margin-top: 15px; 
+    text-align: center; 
+    color: #f9f6ee;
+}

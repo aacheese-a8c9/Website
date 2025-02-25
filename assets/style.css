@@ -2,7 +2,6 @@ body {
   background-color: #a46051;
   margin: 0;
   font-family: 'DM Sans', sans-serif;
-  background-color: #a46051;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,17 +89,16 @@ body {
 }
 
 .empty-button {
+  display: inline-block;
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #cb9f23;
+  background-color: #3498db;
   color: white;
+  text-decoration: none;
+  border-radius: 5px; 
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .empty-button:hover {
-  background-color: #45a049;
-  transform: scale(1.05);
+  background-color: #2980b9;
 }
