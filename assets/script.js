@@ -41,3 +41,14 @@ const cycleImages = [
       changeImage(cycleIndex + 1);
     });
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const signUpButton = document.getElementById("login");
+  
+  if (signUpButton) {
+    signUpButton.addEventListener("click", function (event) {
+      window.location.href = "login.html";
+      });
+    }
+  });
+  

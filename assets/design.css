@@ -76,7 +76,7 @@ input::placeholder {
     color: #8e4c3f;
 }
 
-button {
+.login-btn {
     padding: 10px;
     background-color: #a46051;
     color: white;
@@ -88,8 +88,30 @@ button {
     align-self: center;
 }
 
-button:hover {
+.login-btn:hover {
     background-color: #8e4c3f;
+}
+
+.google-signin {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 180px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
 }
 
 /* #395C6B */
