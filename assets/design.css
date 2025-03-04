@@ -107,6 +107,10 @@ input::placeholder {
     justify-content: center;
     font-weight: bold;
     margin-top: 15px;
+    margin: 15px auto 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .google-icon {
