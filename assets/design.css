@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap');
 
 body {
-    background-color: #a46051;
+    background-color: #131322;
     margin: 0;
     font-family: 'Lora', serif;
     background-size: cover;
@@ -68,7 +68,7 @@ input::placeholder {
 }
 
 .forgot-password a {
-    color: #a46051;
+    color: #131322;
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ input::placeholder {
 
 .login-btn {
     padding: 10px;
-    background-color: #a46051;
+    background-color: #131322;
     color: white;
     border: none;
     border-radius: 5px;

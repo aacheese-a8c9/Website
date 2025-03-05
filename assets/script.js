@@ -51,4 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menu");
+    
+  if (menuButton) {
+    menuButton.addEventListener("click", function (event) {
+      window.location.href = "menu.html";
+      });
+    }
+  });
   

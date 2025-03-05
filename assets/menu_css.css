@@ -1,0 +1,62 @@
+body {
+    background-color: #131322;
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #f9f6ee;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%; 
+    height: 100%; 
+}
+
+.mocha-title {
+    font-family: 'Forum', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mocha-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #5a3e36;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mocha-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
