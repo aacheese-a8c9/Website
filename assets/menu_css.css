@@ -8,21 +8,19 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    display: flex;
+    flex-direction: column;
     gap: 20px; 
-    width: 80%;
-    height: 80vh;
-    margin: auto;
-    justify-content: center;
+    width: 60vw; 
+    height: 100vh; 
+    margin: 40px; 
     align-items: center;
 }
+
 
 .box {
     background-color: #f9f6ee;
@@ -32,10 +30,10 @@ body {
     font-family: 'Lora', serif;
     font-size: 1.2rem;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    width: 200%; 
-    height: 100%; 
+    width: 100%;  
 }
 
 .mocha-title {
@@ -54,9 +52,20 @@ body {
     padding-right: 30px;
 }
 
+.mocha-desc2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #5a3e36;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
 .mocha-image {
     display: block;
-    margin: 0 auto;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 10px; 
 }
