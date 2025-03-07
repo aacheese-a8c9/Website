@@ -61,4 +61,14 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const bookingButton = document.getElementById("booking");
+      
+  if (bookingButton) {
+    bookingButton.addEventListener("click", function (event) {
+      window.location.href = "booking.html";
+      });
+    }
+  });
   
