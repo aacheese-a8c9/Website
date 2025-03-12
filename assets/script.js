@@ -71,4 +71,28 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    const body = document.body;
+  
+    // Load the saved theme from localStorage
+    if (localStorage.getItem("darkMode") === "enabled") {
+      body.classList.add("dark-mode");
+      darkModeToggle.innerHTML = '<ion-icon name="sunny-outline"></ion-icon>';
+    }
+  
+    darkModeToggle.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+  
+      if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+        darkModeToggle.innerHTML = '<ion-icon name="sunny-outline"></ion-icon>';
+      } else {
+        localStorage.setItem("darkMode", "disabled");
+        darkModeToggle.innerHTML = '<ion-icon name="moon-outline"></ion-icon>';
+      }
+    });
+  });
+  
   

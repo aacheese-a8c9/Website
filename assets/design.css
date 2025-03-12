@@ -26,6 +26,63 @@ body {
     transform: translateX(-50%);
 }
 
+.moon-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #f3b817;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.light-mode {
+    background-color: #f9f6ee;
+    color: #131322;
+}
+
+.light-box {
+    background-color: #ffd3a0;
+}
+
+.moon-icon {
+    transition: color 0.3s ease;
+}
+
+.login-btn {
+    padding: 10px;
+    background-color: #131322;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+    align-self: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #8e4c3f;
+}
+
+body.light-mode .login-btn {
+    padding: 10px;
+    background-color: #7070c6;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+    align-self: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .login-btn:hover {
+    background-color: #555596;
+}
+
 
 h2 {
     text-align: center;
@@ -74,22 +131,6 @@ input::placeholder {
 
 .forgot-password a:hover {
     color: #8e4c3f;
-}
-
-.login-btn {
-    padding: 10px;
-    background-color: #131322;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 120px;
-    align-self: center;
-}
-
-.login-btn:hover {
-    background-color: #8e4c3f;
 }
 
 .google-signin {
