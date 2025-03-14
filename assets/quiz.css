@@ -1,0 +1,44 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #131322;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    max-width: 600px;
+    background: #f9f6ee;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Forum', serif;
+    color: #131322;
+}
+
+.question {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.question p {
+    font-weight: bold;
+    color: #131322;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(79, 0, 125);
+    color: #f9f6ee;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}  
