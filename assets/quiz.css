@@ -19,6 +19,11 @@ h1 {
     color: #131322;
 }
 
+h1 {
+    font-family: 'Forum', serif;
+    color: #131322;
+}
+
 .question {
     margin-bottom: 15px;
     text-align: left;
